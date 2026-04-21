@@ -13,3 +13,4 @@ dist/
 # Build files
 client/dist/
 client/.vite/
+project_specs.md
