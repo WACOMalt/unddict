@@ -1,0 +1,15 @@
+# Node modules
+node_modules/
+dist/
+.DS_Store
+
+# Local database
+*.sqlite
+*.sqlite-journal
+
+# Environment variables
+.env
+
+# Build files
+client/dist/
+client/.vite/

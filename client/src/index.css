@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-spring-green: #4ade80;
+  --color-spring-sky: #7dd3fc;
+  --color-spring-bloom: #f472b6;
+  --color-spring-leaf: #22c55e;
+}
+
+body {
+  @apply bg-emerald-50 text-slate-800 min-h-screen font-sans;
+}
+
+.glass-card {
+  @apply bg-white/80 backdrop-blur-sm border border-white shadow-xl shadow-emerald-200/50 rounded-2xl;
+}
+
+.btn-primary {
+  @apply bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-3 rounded-xl font-bold transition-all shadow-lg shadow-emerald-200;
+}
+
+.btn-secondary {
+  @apply bg-white hover:bg-emerald-50 text-emerald-700 border border-emerald-200 px-8 py-3 rounded-xl font-bold transition-all;
+}
